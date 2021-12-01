@@ -4,7 +4,6 @@ defmodule Aoc2021Day1 do
   """
 
   @doc """
-  Solve the puzzle given list of numbers: input.txt
   Returns number of instances a list value was greater than the list value previous to it.
 
   ## Examples
@@ -36,7 +35,6 @@ defmodule Aoc2021Day1 do
   """
 
   def main(input) do
-    # load input file, parse
     input
     |> File.read!()
     |> String.split("\n", trim: true)
